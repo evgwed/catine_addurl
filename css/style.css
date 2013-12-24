@@ -1,0 +1,38 @@
+body{
+	background-color: #efefef;
+}
+#frame_b{
+	width: 290px;
+	height:300px;
+	display: inline-block;
+	vertical-align:top;
+}
+
+#frame_b iframe{
+	width: 280px;
+	height: 300px;
+	overflow:hidden;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+#added_site{
+	display: inline-block;
+	vertical-align:top;
+}
+#added_site h2{
+	font-size: 20px;
+}
+#added_site p{
+	font-size: 12px;
+}
+#added_site p a{
+	color: #444;
+	font-size: 12px;
+}
+.addedsite{
+	display: inline-block;
+	vertical-align:top;
+	width: 200px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
