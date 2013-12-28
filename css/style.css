@@ -1,18 +1,40 @@
 body{
-	background-color: #efefef;
+	background-color: #444;
+    background-image: url("../img/bg.png");
 }
 #frame_b{
-	width: 290px;
+	width: 330px;
 	height:300px;
 	display: inline-block;
 	vertical-align:top;
 }
-
+.logo{
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 55px 0px 0px 0px;
+    font-size: 25px;
+    color: #444;
+}
+.copyright{
+    float: right;
+    margin: -120px 0px 0px 0px;
+    color: #f5f5f5;
+    padding: 5px;
+    border-radius: 3px;
+    text-shadow: 0px 0px 1px #eee;
+    background-color: #444;
+    text-decoration: none;
+}
+.copyright:hover{
+    background-color: #666;
+}
 #frame_b iframe{
 	width: 280px;
 	height: 300px;
 	overflow:hidden;
-	border: 1px solid #ddd;
+	border: 10px solid #fff;
+    box-shadow: 1px 2px 2px #444;
 	border-radius: 5px;
 }
 #added_site{
@@ -35,4 +57,66 @@ body{
 	width: 200px;
 	background-color: #fff;
 	border: 1px solid #ddd;
+    height: 505px;
+    overflow-x: hidden;
+    padding: 5px;
+}
+.body_b{
+    width: 980px;
+    min-height: 700px;
+    background-color: #ebebeb;
+    overflow: hidden;
+    padding: 10px;
+    margin: 0px auto;
+    box-shadow: 0px 0px 15px #444 inset;
+    border: 1px solid #444;
+    border-radius: 10px;
+}
+#start{
+    padding: 15px 10px;
+}
+
+/********************/
+.switch{
+    border:none;
+    /*background:left no-repeat;*/
+    background-position: right;
+    background-repeat: no-repeat;
+    width:105px;
+    height:46px;
+    padding:0;
+    margin:0;
+}
+
+.on, .off{
+    width:50px;
+    height:40px;
+    display:inline-block;
+    cursor:pointer;
+}
+#site_url{
+    width: 300px;
+    margin: 20px 0px 0px 0px;
+    padding: 5px;
+}
+.descript_url{
+    margin:3px 0px;
+    font-size: 14px;
+    font-style: italic;
+}
+/*none*/
+.body-none{
+    background: #999; /* Old browsers */
+    width: 300px;
+    height: 400px;
+}
+.body-none span{
+    position: absolute;
+    margin-top: 70px;
+    color: #ebebeb;
+    text-shadow: 0px 0px 5px #666;
+    font-size: 25px;
+}
+*{
+    color:#444;
 }
