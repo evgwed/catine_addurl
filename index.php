@@ -22,10 +22,15 @@
             <iframe src ="none.html" name= "one" scrolling="no" sandbox="allow-same-origin" seamless id="frame_one"></iframe>
             <input name="site_url" id="site_url" type="text" value="" placeholder="Введите сайт для прогона" />
             <p class="descript_url">Пример ввода сайта: google.ru</p>
-            <fieldset class="switch">
-                <label class="off">Выкл<input type="radio" class="on_off" name="on_off" value="off"/></label>
-                <label class="on">Вкл<input type="radio" class="on_off" name="on_off" value="on"/></label>
-            </fieldset>
+
+            <!--<fieldset class="switch">
+                <label class="off">Выкл<input type="radio" class="on_off" name="off" value="off"/></label>
+                <label class="on">Вкл<input type="radio" class="on_off" name="on" value="on"/></label>
+            </fieldset>-->
+            <div class="swich_b">
+                <div class="off_b">&nbsp;</div>
+                <div class="on_b">&nbsp;</div>
+            </div>
         </div>
         <div id="added_site">
             <h2>
